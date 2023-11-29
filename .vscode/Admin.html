@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="home.css">
+  <title>Cine App - Administrar Películas</title>
+</head>
+<body>
+    
+  <!-- Barra de menú -->
+  <nav>
+    <ul>
+      <li><a href="cartelera.html">Cartelera</a></li>
+      <li class="active"><a href="#">Administrar Películas</a></li>
+      <li><a href="#">Lista de Reservas</a></li>
+      <!-- Puedes agregar más elementos según sea necesario -->
+    </ul>
+  </nav>
+
+  <!-- Contenido de administración de películas -->
+  <div id="admin-container">
+    <h2>Administrar Películas</h2>
+
+    <!-- Botón para adicionar película -->
+    <button id="add-movie-btn">Adicionar Película</button>
+
+    <!-- Contenedor para mostrar detalles de la película -->
+    <div id="movie-details-container"></div>
+
+    <!-- Tabla para mostrar la lista de películas -->
+    <table id="movie-table">
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Género</th>
+          <th>Sinópsis</th>
+          <th>Imagen Promocional</th>
+          <th>Formato</th>
+          <th>Duración</th>
+          <th>Valor de la Boleta</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="movie-table-body">
+        <!-- Aquí se mostrarán dinámicamente las películas -->
+      </tbody>
+    </table>
+  </div>
+  <script src="Admin.js"></script>
+</body>
+</html>

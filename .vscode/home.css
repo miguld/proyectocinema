@@ -1,0 +1,50 @@
+/* Estilos para la barra de menú */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el contenido del home */
+  #home-container {
+    position: relative;
+    text-align: center;
+    color: #333;
+  }
+  
+  #background-image {
+    /* Agrega la ruta de tu imagen llamativa como fondo */
+    background-image: url('imagenes/Cine-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px; /* Ajusta la altura según sea necesario */
+    opacity: 0.8; /* Ajusta la opacidad según sea necesario */
+  }
+  
+  #home-container h1 {
+    margin-top: 50px;
+    font-size: 36px;
+  }
+  
+  #home-container p {
+    font-size: 18px;
+  }
+  

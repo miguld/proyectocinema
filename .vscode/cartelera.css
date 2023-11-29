@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Fondo blanco */
+    color: #000; /* Texto negro */
+  }
+  
+  /* Estilos para la barra de menú */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Estilos para el contenido del dashboard de películas en cartelera */
+  #cartelera-container {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+  }
+  
+  #cartelera-container h1 {
+    margin-top: 20px;
+  }
+  
+  /* Lista de películas en cartelera */
+  #peliculas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #f0f0f0; /* Color de fondo para las películas */
+    padding: 20px;
+  }
+  
+  .pelicula {
+    width: 30%;
+    margin: 10px;
+    background-color: #fff; /* Fondo blanco para cada película */
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de cada película */
+  }
+  
+  .pelicula img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+  }
+  
+  .pelicula h2 {
+    margin-top: 10px;
+  }
+  
+  .pelicula p {
+    margin: 5px 0;
+  }
+  
+/* Estilos para la tabla de asientos */
+.tabla-asientos {
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabla-asientos td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Estilos para los asientos */
+  .asiento-disponible {
+    background-color: #aaffaa; /* Color para asientos disponibles */
+  }
+  
+  .asiento-seleccionado {
+    background-color: #ffaaaa; /* Color para asientos seleccionados */
+  }
+  
+  /* Estilos adicionales según tus necesidades */
+  #info-reserva {
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  /* Estilos adicionales según tus necesidades */
+.asiento-reservado {
+    background-color: #dddddd; /* Color para asientos reservados */
+  }
+  
