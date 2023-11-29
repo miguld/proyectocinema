@@ -29,7 +29,7 @@
         <div id="formulario-registro">
             <span class="cerrar" onclick="cerrarFormularioRegistro()">&times;</span>
             <h2>Registrarme</h2>
-            <form id="registro-form" onsubmit="return validarRegistro()">
+            <form id="registro-form" action="/registro" method="POST">
                 <label for="tipo-documento">Tipo de documento:</label>
                 <select id="tipo-documento" name="tipo-documento" required>
                     <option value="cedula">Cédula</option>
@@ -60,6 +60,7 @@
     </div>
 
     <script src="login.js"></script>
+    
 </body>
 
 </html>
